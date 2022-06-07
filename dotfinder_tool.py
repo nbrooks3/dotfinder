@@ -67,12 +67,13 @@ class HoleLocator(object):
         self.savefile_button = Button(self.savefile_ax, 'Save data')
         self.savefile_button.on_clicked(self.save_data_callback)
         
-        plt.show()
         self.dotsize_textbox.set_val(str(self.d))
         self.originx_textbox.set_val(str(0))
         self.originy_textbox.set_val(str(0))
         self.pixsize_textbox.set_val(str(1))
         self.locatedots_callback(self.dotsize_textbox.text)
+        
+        plt.show()
         
 
     def locate_holes(self):
