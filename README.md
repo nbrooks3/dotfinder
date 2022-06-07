@@ -6,3 +6,5 @@ dotfinder_tool.py implements a simple GUI which can be used to load an image, id
 dotfinder_overview.pdf is a single page overview with information about the algorithm and simulated tests. 
 dots_original.jpg is a real image provided in the challenge.
 sim_2px.png and sim_50px.png are simulated images used to assess the accuracy of the algorithm.
+
+Can be run in the command prompt as:  python dotfinder_tool.py
